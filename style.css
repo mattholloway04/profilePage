@@ -12,7 +12,6 @@
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  scale: 2px;
 }
 div {
   margin: 10px;
@@ -92,7 +91,7 @@ div[class='p2 grid-area'] {
   margin-top: auto;
 }
 p[class='age'] {
-  line-height: 82px;
+  line-height: 1.5%;
   text-align: center;
   font-size: 60px;
 }
@@ -101,7 +100,7 @@ p[class='age'] {
   margin-top: auto;
 }
 p[class='height'] {
-  line-height: 82px;
+  line-height: 1.5%;
   text-align: center;
   font-size: 60px;
 }
@@ -110,7 +109,7 @@ p[class='height'] {
   margin-top: auto;
 }
 p[class='weight'] {
-  line-height: 82px;
+  line-height: 1.5%;
   text-align: center;
   font-size: 60px;
 }
@@ -119,7 +118,7 @@ p[class='weight'] {
   margin-top: auto;
 }
 p[class='bday'] {
-  line-height: 82px;
+  line-height: 1.5%;
   text-align: center;
   font-size: 60px;
 }
