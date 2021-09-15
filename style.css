@@ -1,0 +1,125 @@
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 80px 125px 125px 125px 125px 125px;
+  grid-template-areas:
+    '. . date'
+    'name name name'
+    'img body body'
+    'img info info'
+    'img p1 p1'
+    'img p2 p2';
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  scale: 2px;
+}
+div {
+  margin: 10px;
+  border: 10px solid black;
+  border-radius: 10px;
+  background-color: rgb(200, 166, 255);
+}
+.date {
+  grid-area: date;
+}
+div[class='date grid-area'] {
+  background-color: rgb(159, 223, 248);
+  font-family: 'Mario';
+  font-size: 50px;
+  -webkit-text-stroke: 3px;
+  -webkit-text-stroke-color: black;
+  height: fit-content;
+  text-align: center;
+}
+.img {
+  grid-area: img;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.name {
+  grid-area: name;
+  font-family: 'Mario';
+}
+p[class='name'] {
+  line-height: 56px;
+  text-align: center;
+}
+.body {
+  grid-area: body;
+}
+.info {
+  grid-area: info;
+}
+.p1 {
+  grid-area: p1;
+}
+.p2 {
+  grid-area: p2;
+}
+@font-face {
+  font-family: 'Mario';
+  src: url('font/supermario256-webfont.woff2') format('woff2'),
+    url('font/supermario256-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+div[class='name grid-area'] span {
+  font-size: 100px;
+  -webkit-text-stroke: 5px;
+  -webkit-text-stroke-color: black;
+}
+div[class='name grid-area'] {
+  background-color: rgb(255, 78, 78);
+}
+div[class='body grid-area'] {
+  background-color: rgb(197, 255, 109);
+}
+div[class='info grid-area'] {
+  background-color: rgb(255, 255, 118);
+}
+div[class='p1 grid-area'] {
+  background-color: rgb(174, 232, 255);
+}
+div[class='p2 grid-area'] {
+  background-color: rgb(197, 255, 109);
+}
+.age {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: auto;
+}
+p[class='age'] {
+  line-height: 82px;
+  text-align: center;
+  font-size: 60px;
+}
+.height {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: auto;
+}
+p[class='height'] {
+  line-height: 82px;
+  text-align: center;
+  font-size: 60px;
+}
+.weight {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: auto;
+}
+p[class='weight'] {
+  line-height: 82px;
+  text-align: center;
+  font-size: 60px;
+}
+.bday {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: auto;
+}
+p[class='bday'] {
+  line-height: 82px;
+  text-align: center;
+  font-size: 60px;
+}
